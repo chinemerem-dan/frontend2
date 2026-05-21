@@ -1,73 +1,66 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
-/* body{
-    
-    display:flex;
-   min-height: 100vh;
-    justify-content: center;
-    align-items:center ; 
+body{
+   display: grid;
+   justify-items: center;
+   align-items: center;
+   height: 100vh;
    
-    
-} */
-/* .sec{
-
-    border: solid 2px red;
-    width: 100%;
-    max-width: 500px;
-    text-align: center;
-
    
-    
 }
-li{
-     list-style-type: none;
-}
-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.buttons{
+   
+   display: grid;
+grid-template-columns: repeat(3,1fr);
+justify-items: center;
+align-items: center;
+row-gap: 1rem;
+
+  
 
 }
-a{
-    display: inline-block;
-    margin-top: 100px;
-    margin-left: 100px;
+.calculator{
+   
+  width: 30%;
+   background-color:rgb(32, 168, 17);
+   padding: 1rem;
+   
+   
+}
+input{
+   padding: 0.3rem;
+   width: 100%;
+   font-size: 1rem;
+   border-radius: 2px;
+   margin-bottom: 1rem;
+   
+}
+.btn{
+   width: 50%;
+    color: rgb(29, 24, 15); 
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 1rem;
+    border-left: yellow 2px solid;
+}
+/* 
+#container{
+   
+   display: flex;
+   flex-direction: row;
+   gap: 4rem;
+  
+}
+button{
+   padding: 1rem;
+   border: solid 2px black;
+   margin-bottom: 1rem;
+   font-size: 0.6rem;
+   width: 30px;
+  
+   
 } */
- .grid-container{
-    font-family: 2.5rem;
-    display: grid;
-    grid-template-columns: 100px 200px 500px;  
-    /*set the number of columns and width of each.  */
-    grid-template-rows: auto;
-    /* set the number of rows and height of each */
-    /* fractional unit and rows. repeat , grid aligment*/
-    row-gap: 40px;
-    column-gap: 20px;
- }
- .grid-item-1{
-    background-color: red;
- }
- .grid-item-2{
-    background-color: blue;
- }
- .grid-item-3{
-    background-color: rgb(0, 255, 234);
- }
- .grid-item-4{
-    background-color: rgb(170, 0, 255);
- }
- .grid-item-5{
-    background-color: rgb(36, 31, 31);
- }
- .grid-item-6{
-    background-color: rgba(255, 145, 0, 0.506);
- }
- .grid-item-7{
-    background-color: rgb(165, 75, 75);
- }
- .grid-item-8{
-    background-color: rgb(200, 126, 126);
- }
